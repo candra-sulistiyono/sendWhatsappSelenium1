@@ -30,4 +30,5 @@ sendMessage("Javas","Using Selenium and ChromeDriver")
 sleep(1)
 sendMessage("Javas","Thanks ...")
 sleep(3)
-driver.close();
+driver.close()
+driver.quit()
